@@ -13,15 +13,15 @@ import cucumber.api.CucumberOptions;
 @CucumberOptions(
         dryRun = false,
         strict = true,
-        features = "src/test/features/com/sample",
-        glue = "com.sample",
-        tags = { "~@wip", "@executeThis" },
-        monochrome = true,
+        features = "src/test/java/features/",
+        //glue = "com.sample",
+        tags = { "~@wip", "@executeThis","@pending","@passing","@failing","@to-implement" },
+        monochrome = false,
         format = {
                 "pretty",
                 "html:target/cucumber",
                 "json:target_json/cucumber.json",
-                "junit:taget_junit/cucumber.xml"
+                "junit:target_junit/cucumber.xml"
         }
 )
 
