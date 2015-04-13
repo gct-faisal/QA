@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/qa-bdd-gct.iml" filepath="$PROJECT_DIR$/qa-bdd-gct.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-cukes-reporting.iml" filepath="$PROJECT_DIR$/maven-cukes-reporting.iml" />
     </modules>
   </component>
 </project>

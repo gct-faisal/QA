@@ -22,11 +22,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="qa-bdd-gct" />
+        <module name="maven-cukes-reporting" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="qa-bdd-gct" target="1.5" />
+      <module name="maven-cukes-reporting" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
