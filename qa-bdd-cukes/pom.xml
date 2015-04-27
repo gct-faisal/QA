@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.bdd.cukes</groupId>
+    <artifactId>cukes-jvm-bdd</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <properties>
+        <cucumber-core.version>1.2.2</cucumber-core.version>
+        <cucumber-junit.version>1.2.0</cucumber-junit.version>
+        <cucucmber-jvm.version>1.0.3</cucucmber-jvm.version>
+        <cucumber-java.version>1.2.0</cucumber-java.version>
+        <cucmber-html.version>0.2.3</cucmber-html.version>
+        <picocontainer.version>1.1.5</picocontainer.version>
+        <gherkin.version>2.12.2</gherkin.version>
+        <junit.version>4.11</junit.version>
+        <log4j.version>1.2.16</log4j.version>
+        <commons-logging.version>1.1.3</commons-logging.version>
+        <timestamp>${maven.build.timestamp}</timestamp>
+        <maven.build.timestamp.format>yyyy-MM-dd HH:mm</maven.build.timestamp.format>
+    </properties>
+    <dependencies>
+    <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>${junit.version}</version>
+        <scope>compile</scope>
+    </dependency>
+
+    <!-- cucumber -->
+    <dependency>
+        <groupId>info.cukes</groupId>
+        <artifactId>cucumber-core</artifactId>
+        <version>${cucumber-core.version}</version>
+        <scope>compile</scope>
+    </dependency>
+    <dependency>
+        <groupId>info.cukes</groupId>
+        <artifactId>cucumber-html</artifactId>
+        <version>${cucmber-html.version}</version>
+        <scope>compile</scope>
+    </dependency>
+    <dependency>
+        <groupId>info.cukes</groupId>
+        <artifactId>cucumber-java</artifactId>
+        <version>${cucumber-java.version}</version>
+        <scope>compile</scope>
+    </dependency>
+    <dependency>
+        <groupId>info.cukes</groupId>
+        <artifactId>cucumber-junit</artifactId>
+        <version>${cucumber-junit.version}</version>
+        <scope>compile</scope>
+    </dependency>
+    <dependency>
+        <groupId>info.cukes</groupId>
+        <artifactId>cucumber-jvm-deps</artifactId>
+        <version>${cucucmber-jvm.version}</version>
+        <scope>compile</scope>
+    </dependency>
+    <dependency>
+        <groupId>info.cukes</groupId>
+        <artifactId>gherkin</artifactId>
+        <version>${gherkin.version}</version>
+        <scope>compile</scope>
+    </dependency>
+    <dependency>
+        <groupId>info.cukes</groupId>
+        <artifactId>cucumber-picocontainer</artifactId>
+        <version>${picocontainer.version}</version>
+        <scope>compile</scope>
+    </dependency>
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>${log4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+            <version>${commons-logging.version}</version>
+        </dependency>
+</dependencies>
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-plugin</artifactId>
+            <version>2.14</version>
+        </plugin>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-site-plugin</artifactId>
+            <version>3.0-beta-3</version>
+        </plugin>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-surefire-report-plugin</artifactId>
+            <version>2.15</version>
+        </plugin>
+        <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>exec-maven-plugin</artifactId>
+            <version>1.2.1</version>
+            <executions>
+                <execution>
+                    <phase>integration-test</phase>
+                    <goals>
+                        <goal>java</goal>
+                    </goals>
+                </execution>
+            </executions>
+            <configuration>
+                <executableDependency>
+                    <groupId>info.cukes</groupId>
+                    <artifactId>cucumber-core</artifactId>
+                </executableDependency>
+
+                <mainClass>cucumber.api.cli.Main</mainClass>
+                <arguments>
+                    <argument>--plugin</argument>
+                    <argument>junit:report/report-${timestamp}/cucumber-junit-report/allcukes.xml</argument>
+                    <argument>--plugin</argument>
+                    <argument>pretty</argument>
+                    <argument>--plugin</argument>
+                    <argument>html:report/report-${timestamp}/cucumber-html-report</argument>
+                    <argument>--glue</argument>
+                    <argument>com.bdd.cukes</argument>
+                    <argument>/src/test/resources/com/bdd.cukes/features</argument>
+                </arguments>
+
+            </configuration>
+
+        </plugin>
+    </plugins>
+</build>
+</project>
