@@ -2,30 +2,103 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a74905aa-74fd-4a2f-8c29-9078d172e07e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_core_1_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_html_0_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_java_1_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_junit_1_2_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_jvm_deps_1_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_picocontainer_1_1_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_gherkin_2_12_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_picocontainer_picocontainer_2_14_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/RunCukesTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TraxPack" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../gct" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/SodaMachine.feature" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/test-classes/SodaMachine.feature" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/StepDefs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/report-2015-04-27 14:04/cucumber-junit-report/allcukes.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/report/report-2015-04-27 14:04/cucumber-html-report/report.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/.idea/codeStyleSettings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/.idea/deployment.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/.idea/vagrant.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/ant-1.6.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/antlr-2.7.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/avalon-logkit-2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/commons-collections-3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/commons-io-2.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/commons-lang-2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/cucumber-core-1.1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/cucumber-java-1.1.3-javadoc.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/cucumber-java-1.1.3-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/cucumber-java-1.1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/cucumber-jvm-deps-1.0.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/cucumber-picocontainer-1.1.1-javadoc.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/cucumber-picocontainer-1.1.1-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/cucumber-picocontainer-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/cucumber-reporting-0.0.20-javadoc.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/cucumber-reporting-0.0.20-sources.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/cucumber-reporting-0.0.20.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/geronimo-spec-javamail-1.3.1-rc3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/geronimo-spec-jms-1.1-rc4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/gherkin-2.11.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/gherkin-2.11.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/gson-2.2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/guava-r09.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/jdom-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/joda-time-2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/jsoup-1.7.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/junit-4.10.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/log4j-1.2.12.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/maven-artifact-2.0.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/maven-artifact-manager-2.0.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/maven-gpg-plugin-1.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/maven-model-2.0.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/maven-plugin-api-2.0.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/maven-plugin-registry-2.0.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/maven-profile-2.0.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/maven-project-2.0.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/maven-repository-metadata-2.0.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/maven-settings-2.0.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/mockito-all-1.9.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/oro-2.0.8.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/plexus-utils-2.0.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/servlet-api-2.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/totallylazy-991.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/velocity-1.5-20060721.044818.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/wagon-provider-api-1.0-beta-2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/lib/werken-xpath-0.9.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/report/report-2015-04-18 16:28/cucumber-html-report/report.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/report/report-2015-04-18 16:28/cucumber-junit-report/allcukes.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/report/report-2015-04-18 16:29/cucumber-html-report/report.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/report/report-2015-04-18 16:29/cucumber-junit-report/allcukes.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/src/test/java/com/bdd/cukes/Belly.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/src/test/java/com/bdd/cukes/CukesRunner.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/src/test/java/com/bdd/cukes/bellyDefs.java" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/src/test/resources/com/bdd.cukes/features/belly.feature" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-gct/.idea/workspace.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/../qa-bdd-gct/pom.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/pom.xml" afterPath="$PROJECT_DIR$/../qa-bdd-cukes/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../qa-bdd-cukes/.idea/vcs.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/.idea/libraries/Maven__info_cukes_cucumber_core_1_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_core_1_2_2.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/.idea/libraries/Maven__info_cukes_cucumber_html_0_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_html_0_2_3.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/.idea/libraries/Maven__info_cukes_cucumber_java_1_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_java_1_2_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/.idea/libraries/Maven__info_cukes_cucumber_junit_1_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_junit_1_2_0.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/.idea/libraries/Maven__info_cukes_cucumber_jvm_deps_1_0_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_jvm_deps_1_0_3.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/.idea/libraries/Maven__info_cukes_cucumber_picocontainer_1_1_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_cucumber_picocontainer_1_1_5.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/.idea/libraries/Maven__info_cukes_gherkin_2_12_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__info_cukes_gherkin_2_12_2.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/.idea/libraries/Maven__junit_junit_4_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/.idea/libraries/Maven__org_picocontainer_picocontainer_2_14_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_picocontainer_picocontainer_2_14_3.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/cukes-jvm-bdd.iml" afterPath="$PROJECT_DIR$/qa-bdd.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/report/report-2015-04-18 16:29/cucumber-html-report/formatter.js" afterPath="$PROJECT_DIR$/report/report-2015-04-27 14:04/cucumber-html-report/formatter.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/report/report-2015-04-18 16:29/cucumber-html-report/index.html" afterPath="$PROJECT_DIR$/report/report-2015-04-27 14:04/cucumber-html-report/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/report/report-2015-04-18 16:29/cucumber-html-report/jquery-1.8.2.min.js" afterPath="$PROJECT_DIR$/report/report-2015-04-27 14:04/cucumber-html-report/jquery-1.8.2.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/report/report-2015-04-18 16:29/cucumber-html-report/style.css" afterPath="$PROJECT_DIR$/report/report-2015-04-27 14:04/cucumber-html-report/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../qa-bdd-cukes/src/test/java/com/bdd/cukes/CukesRunner.java" afterPath="$PROJECT_DIR$/src/test/java/RunCukesTest.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../qa-bdd-gct/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="qa-bdd.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,8 +155,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8554745">
-              <caret line="131" column="35" selection-start-line="131" selection-start-column="35" selection-end-line="131" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.07929515">
+              <caret line="93" column="60" selection-start-line="93" selection-start-column="60" selection-end-line="93" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -134,7 +207,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -711,12 +784,12 @@
       <updated>1430156927140</updated>
       <workItem from="1430156929151" duration="1250000" />
       <workItem from="1430158415439" duration="139000" />
-      <workItem from="1430158583614" duration="209000" />
+      <workItem from="1430158583614" duration="1513000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1598000" />
+    <option name="totallyTimeSpent" value="2902000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -736,18 +809,18 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32833186" sideWeight="0.506383" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3300885" sideWeight="0.50212765" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921448" sideWeight="0.49787235" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921448" sideWeight="0.49787235" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16489361" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32833186" sideWeight="0.49361703" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32833186" sideWeight="0.49361703" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Sequence" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3300885" sideWeight="0.49787235" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Compare Directories" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CodotaView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -860,13 +933,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../qa-bdd-cukes/src/main/java/com/bdd/cukes/CukesRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.022508038">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/RunCukesTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -913,8 +979,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8554745">
-          <caret line="131" column="35" selection-start-line="131" selection-start-column="35" selection-end-line="131" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.07929515">
+          <caret line="93" column="60" selection-start-line="93" selection-start-column="60" selection-end-line="93" selection-end-column="60" />
           <folding />
         </state>
       </provider>
