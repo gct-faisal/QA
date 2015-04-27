@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="0">
+<testcase classname="Soda machine" name="Get soda" time="0">
+<skipped><![CDATA[Given I have $2 in my account...............................................undefined
+When I wave my magic ring at the machine....................................undefined
+Then I should get a soda....................................................undefined
+]]></skipped>
+</testcase>
+</testsuite>

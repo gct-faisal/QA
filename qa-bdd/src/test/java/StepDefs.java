@@ -1,7 +1,12 @@
+import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
 /**
  * Created by fhumayun on 4/27/15.
  */
-import cucumber.annotation.en.*;
+
 
 public class StepDefs {
     @Given("^I have \\$(\\d+) in my account$")
