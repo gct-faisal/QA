@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="group-care-common-service" />
+        <module name="group-care-common-utilities" />
+        <module name="group-care-data-model-common" />
+        <module name="group-care-data-model-device" />
+        <module name="group-care-data-model-eventlog" />
+        <module name="group-care-data-model-notification" />
+        <module name="group-care-data-model-service" />
+        <module name="group-care-device-sim" />
+        <module name="group-care-distance-calc-haversine" />
+        <module name="group-care-geo-interface" />
+        <module name="group-care-google-maps-integration" />
+        <module name="group-care-kafka-consumer" />
+        <module name="group-care-kafka-publisher" />
+        <module name="group-care-message-handlers-common" />
+        <module name="group-care-message-handlers-device-tier" />
+        <module name="group-care-message-handlers-process-tier" />
+        <module name="group-care-message-layer-protocolbuffers" />
+        <module name="group-care-message-layer-rest" />
+        <module name="group-care-microservice-client-rest" />
+        <module name="group-care-microservice-common" />
+        <module name="group-care-microservice-device-manager" />
+        <module name="group-care-microservice-eventprocessor" />
+        <module name="group-care-microservice-notification" />
+        <module name="group-care-mobile-sim" />
+        <module name="group-care-mqtt-client-interface" />
+        <module name="group-care-mqtt-client-paho-impl" />
+        <module name="group-care-mqtt-kafka-bridge" />
+        <module name="group-care-notification-android" />
+        <module name="group-care-notification-email" />
+        <module name="group-care-notification-interface" />
+        <module name="group-care-notification-iphone" />
+        <module name="group-care-notification-mock" />
+        <module name="group-care-notification-sms" />
+        <module name="group-care-ssl-bouncycastle-impl" />
+        <module name="group-care-ssl-interface" />
+        <module name="group-care-test-mockups" />
+        <module name="group-care-testbed-config-tool" />
+        <module name="group-care-traxpack" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="group-care" target="1.7" />
+      <module name="group-care-common" target="1.7" />
+      <module name="group-care-common-service" target="1.7" />
+      <module name="group-care-common-utilities" target="1.7" />
+      <module name="group-care-data-layer" target="1.7" />
+      <module name="group-care-data-model-common" target="1.7" />
+      <module name="group-care-data-model-device" target="1.7" />
+      <module name="group-care-data-model-eventlog" target="1.7" />
+      <module name="group-care-data-model-notification" target="1.7" />
+      <module name="group-care-data-model-service" target="1.7" />
+      <module name="group-care-device-sim" target="1.7" />
+      <module name="group-care-distance-calc-haversine" target="1.7" />
+      <module name="group-care-geo" target="1.7" />
+      <module name="group-care-geo-interface" target="1.7" />
+      <module name="group-care-google-maps-integration" target="1.7" />
+      <module name="group-care-kafka" target="1.7" />
+      <module name="group-care-kafka-consumer" target="1.7" />
+      <module name="group-care-kafka-publisher" target="1.7" />
+      <module name="group-care-message-handlers-common" target="1.7" />
+      <module name="group-care-message-handlers-device-tier" target="1.7" />
+      <module name="group-care-message-handlers-process-tier" target="1.7" />
+      <module name="group-care-message-layer" target="1.7" />
+      <module name="group-care-message-layer-device-tier" target="1.7" />
+      <module name="group-care-message-layer-process-tier" target="1.7" />
+      <module name="group-care-message-layer-protocolbuffers" target="1.7" />
+      <module name="group-care-message-layer-rest" target="1.7" />
+      <module name="group-care-microservice-client" target="1.7" />
+      <module name="group-care-microservice-client-device-tier" target="1.7" />
+      <module name="group-care-microservice-client-mqtt" target="1.7" />
+      <module name="group-care-microservice-client-process-tier" target="1.7" />
+      <module name="group-care-microservice-client-rest" target="1.7" />
+      <module name="group-care-microservice-common" target="1.7" />
+      <module name="group-care-microservice-device-manager" target="1.7" />
+      <module name="group-care-microservice-eventprocessor" target="1.7" />
+      <module name="group-care-microservice-message-handlers" target="1.7" />
+      <module name="group-care-microservice-notification" target="1.7" />
+      <module name="group-care-microservice-services" target="1.7" />
+      <module name="group-care-microservices" target="1.7" />
+      <module name="group-care-mobile-sim" target="1.7" />
+      <module name="group-care-mqtt-client-interface" target="1.7" />
+      <module name="group-care-mqtt-client-paho-impl" target="1.7" />
+      <module name="group-care-mqtt-kafka-bridge" target="1.7" />
+      <module name="group-care-notification-android" target="1.7" />
+      <module name="group-care-notification-email" target="1.7" />
+      <module name="group-care-notification-interface" target="1.7" />
+      <module name="group-care-notification-iphone" target="1.7" />
+      <module name="group-care-notification-mechanisms" target="1.7" />
+      <module name="group-care-notification-mock" target="1.7" />
+      <module name="group-care-notification-sms" target="1.7" />
+      <module name="group-care-security" target="1.7" />
+      <module name="group-care-simulation" target="1.7" />
+      <module name="group-care-ssl" target="1.7" />
+      <module name="group-care-ssl-bouncycastle-impl" target="1.7" />
+      <module name="group-care-ssl-interface" target="1.7" />
+      <module name="group-care-test" target="1.7" />
+      <module name="group-care-test-mockups" target="1.7" />
+      <module name="group-care-testbed-config-tool" target="1.7" />
+      <module name="group-care-traxpack" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
